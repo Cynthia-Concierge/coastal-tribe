@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  
+[[redirects]]
+  from = "/*"
+  to = "/index-with-events.html"
+  status = 200
+  force = false
+  
+[[redirects]]
+  from = "/admin"
+  to = "/admin-direct.html"
+  status = 200
